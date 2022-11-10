@@ -21,4 +21,4 @@ Running on...
 			
 Result = PASS			
 			
-NOTE: The CUDA Samples are not meant for performance measurements. Results may vary when GPU Boost is enabled.			
+NOTE: The CUDA Samples are not meant for performance measurements. Results may vary when GPU Boost is enabled.	 		

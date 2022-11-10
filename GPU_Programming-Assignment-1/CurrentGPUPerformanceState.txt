@@ -1,5 +1,5 @@
 
-==============NVSMI LOG==============
+==============NVSMI LOG============== 
 
 Timestamp                                 : Mon Oct 31 22:50:48 2022
 Driver Version                            : 515.65.01
