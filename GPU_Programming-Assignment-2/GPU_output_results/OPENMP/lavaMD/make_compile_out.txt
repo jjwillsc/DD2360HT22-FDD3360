@@ -1,0 +1,24 @@
+gcc	 main.c \
+		-c \
+		-o main.o \
+		-O3
+gcc				./kernel/kernel_cpu.c \
+					-c \
+					-o ./kernel/kernel_cpu.o \
+					-O3 \
+					-fopenmp
+gcc			./util/num/num.c \
+				-c \
+				-o ./util/num/num.o \
+				-O3
+gcc				./util/timer/timer.c \
+					-c \
+					-o ./util/timer/timer.o \
+					-O3
+gcc	main.o \
+		./kernel/kernel_cpu.o \
+		./util/num/num.o \
+		./util/timer/timer.o \
+		-lm \
+		-lgomp \
+		-o lavaMD

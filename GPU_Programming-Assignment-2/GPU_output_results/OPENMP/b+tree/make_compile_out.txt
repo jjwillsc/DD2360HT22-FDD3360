@@ -1,0 +1,30 @@
+gcc	./main.c \
+		-c \
+		-o ./main.o \
+		-O3
+gcc	./kernel/kernel_cpu.c \
+		-c \
+		-o ./kernel/kernel_cpu.o \
+		-O3 \
+		-fopenmp
+gcc	./kernel/kernel_cpu_2.c \
+		-c \
+		-o ./kernel/kernel_cpu_2.o \
+		-O3 \
+		-fopenmp
+gcc	./util/timer/timer.c \
+		-c \
+		-o ./util/timer/timer.o \
+		-O3
+gcc	./util/num/num.c \
+		-c \
+		-o ./util/num/num.o \
+		-O3
+gcc	./main.o \
+		./kernel/kernel_cpu.o \
+		./kernel/kernel_cpu_2.o \
+		./util/timer/timer.o \
+		./util/num/num.o \
+		-lm \
+		-lgomp \
+                        -o b+tree.out

@@ -1,0 +1,33 @@
+nvcc  ./kernel/kernel_gpu_cuda_wrapper.cu \
+			-c \
+			-o ./kernel/kernel_gpu_cuda_wrapper.o \
+			-O3 \
+			-arch sm_80
+nvcc  ./kernel/kernel_gpu_cuda_wrapper_2.cu \
+			-c \
+			-o ./kernel/kernel_gpu_cuda_wrapper_2.o \
+			-O3 \
+			-arch sm_80
+gcc	./util/timer/timer.c \
+		-c \
+		-o ./util/timer/timer.o \
+		-O3
+gcc	./util/num/num.c \
+		-c \
+		-o ./util/num/num.o \
+		-O3
+nvcc	./util/cuda/cuda.cu \
+			-c \
+			-o ./util/cuda/cuda.o \
+			-O3 \
+			-arch sm_80
+gcc	./main.o \
+		./kernel/kernel_gpu_cuda_wrapper.o \
+		./kernel/kernel_gpu_cuda_wrapper_2.o \
+		./util/timer/timer.o \
+		./util/num/num.o \
+		./util/cuda/cuda.o \
+		-lm \
+		-L/usr/local/cuda/lib64 \
+		-lcuda -lcudart\
+                       -o b+tree.out

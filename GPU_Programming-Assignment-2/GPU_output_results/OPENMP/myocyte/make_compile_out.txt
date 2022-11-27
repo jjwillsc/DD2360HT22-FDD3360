@@ -1,0 +1,5 @@
+gcc	main.c \
+		-c -O3 -fopenmp
+gcc	main.o \
+		-lm -fopenmp \
+-o myocyte.out
