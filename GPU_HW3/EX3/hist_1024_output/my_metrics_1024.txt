@@ -1,0 +1,310 @@
++Sat Dec  3 00:09:55 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA A100-PCI...  Off  | 00000000:43:00.0 Off |                    0 |
+| N/A   29C    P0    35W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA A100-PCI...  Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   36C    P0    36W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+The input length is 1024
+Data Type: j
+
+The input length is 1024
+Data Type: j
+Generating '/tmp/nsys-report-15c7.qdstrm'
+
+[1/7] [0%                          ] report1.nsys-rep
+[1/7] [0%                          ] report1.nsys-rep
+[1/7] [10%                         ] report1.nsys-rep
+[1/7] [===========51%              ] report1.nsys-rep
+[1/7] [======================90%   ] report1.nsys-rep
+[1/7] [========================100%] report1.nsys-rep
+
+[2/7] [0%                          ] report1.sqlite
+[2/7] [1%                          ] report1.sqlite
+[2/7] [2%                          ] report1.sqlite
+[2/7] [3%                          ] report1.sqlite
+[2/7] [4%                          ] report1.sqlite
+[2/7] [5%                          ] report1.sqlite
+[2/7] [6%                          ] report1.sqlite
+[2/7] [7%                          ] report1.sqlite
+[2/7] [8%                          ] report1.sqlite
+[2/7] [9%                          ] report1.sqlite
+[2/7] [10%                         ] report1.sqlite
+[2/7] [11%                         ] report1.sqlite
+[2/7] [12%                         ] report1.sqlite
+[2/7] [13%                         ] report1.sqlite
+[2/7] [14%                         ] report1.sqlite
+[2/7] [=15%                        ] report1.sqlite
+[2/7] [=16%                        ] report1.sqlite
+[2/7] [=17%                        ] report1.sqlite
+[2/7] [==18%                       ] report1.sqlite
+[2/7] [==19%                       ] report1.sqlite
+[2/7] [==20%                       ] report1.sqlite
+[2/7] [==21%                       ] report1.sqlite
+[2/7] [===22%                      ] report1.sqlite
+[2/7] [===23%                      ] report1.sqlite
+[2/7] [===24%                      ] report1.sqlite
+[2/7] [====25%                     ] report1.sqlite
+[2/7] [====26%                     ] report1.sqlite
+[2/7] [====27%                     ] report1.sqlite
+[2/7] [====28%                     ] report1.sqlite
+[2/7] [=====29%                    ] report1.sqlite
+[2/7] [=====30%                    ] report1.sqlite
+[2/7] [=====31%                    ] report1.sqlite
+[2/7] [=====32%                    ] report1.sqlite
+[2/7] [======33%                   ] report1.sqlite
+[2/7] [======34%                   ] report1.sqlite
+[2/7] [======35%                   ] report1.sqlite
+[2/7] [=======36%                  ] report1.sqlite
+[2/7] [=======37%                  ] report1.sqlite
+[2/7] [=======38%                  ] report1.sqlite
+[2/7] [=======39%                  ] report1.sqlite
+[2/7] [========40%                 ] report1.sqlite
+[2/7] [========41%                 ] report1.sqlite
+[2/7] [========42%                 ] report1.sqlite
+[2/7] [=========43%                ] report1.sqlite
+[2/7] [=========44%                ] report1.sqlite
+[2/7] [=========45%                ] report1.sqlite
+[2/7] [=========46%                ] report1.sqlite
+[2/7] [==========47%               ] report1.sqlite
+[2/7] [==========48%               ] report1.sqlite
+[2/7] [==========49%               ] report1.sqlite
+[2/7] [===========50%              ] report1.sqlite
+[2/7] [===========51%              ] report1.sqlite
+[2/7] [===========52%              ] report1.sqlite
+[2/7] [===========53%              ] report1.sqlite
+[2/7] [============54%             ] report1.sqlite
+[2/7] [============55%             ] report1.sqlite
+[2/7] [============56%             ] report1.sqlite
+[2/7] [============57%             ] report1.sqlite
+[2/7] [=============58%            ] report1.sqlite
+[2/7] [=============59%            ] report1.sqlite
+[2/7] [=============60%            ] report1.sqlite
+[2/7] [==============61%           ] report1.sqlite
+[2/7] [==============62%           ] report1.sqlite
+[2/7] [==============63%           ] report1.sqlite
+[2/7] [==============64%           ] report1.sqlite
+[2/7] [===============65%          ] report1.sqlite
+[2/7] [===============66%          ] report1.sqlite
+[2/7] [===============67%          ] report1.sqlite
+[2/7] [================68%         ] report1.sqlite
+[2/7] [================69%         ] report1.sqlite
+[2/7] [================70%         ] report1.sqlite
+[2/7] [================71%         ] report1.sqlite
+[2/7] [=================72%        ] report1.sqlite
+[2/7] [=================73%        ] report1.sqlite
+[2/7] [=================74%        ] report1.sqlite
+[2/7] [==================75%       ] report1.sqlite
+[2/7] [==================76%       ] report1.sqlite
+[2/7] [==================77%       ] report1.sqlite
+[2/7] [==================78%       ] report1.sqlite
+[2/7] [===================79%      ] report1.sqlite
+[2/7] [===================80%      ] report1.sqlite
+[2/7] [===================81%      ] report1.sqlite
+[2/7] [===================82%      ] report1.sqlite
+[2/7] [====================83%     ] report1.sqlite
+[2/7] [====================84%     ] report1.sqlite
+[2/7] [====================85%     ] report1.sqlite
+[2/7] [=====================86%    ] report1.sqlite
+[2/7] [=====================87%    ] report1.sqlite
+[2/7] [=====================88%    ] report1.sqlite
+[2/7] [=====================89%    ] report1.sqlite
+[2/7] [======================90%   ] report1.sqlite
+[2/7] [======================91%   ] report1.sqlite
+[2/7] [======================92%   ] report1.sqlite
+[2/7] [=======================93%  ] report1.sqlite
+[2/7] [=======================94%  ] report1.sqlite
+[2/7] [=======================95%  ] report1.sqlite
+[2/7] [=======================96%  ] report1.sqlite
+[2/7] [========================97% ] report1.sqlite
+[2/7] [========================98% ] report1.sqlite
+[2/7] [========================99% ] report1.sqlite
+[2/7] [========================100%] report1.sqlite
+[2/7] [========================100%] report1.sqlite
+[3/7] Executing 'nvtxsum' stats report
+[4/7] Executing 'cudaapisum' stats report
+
+CUDA API Statistics:
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)     Med (ns)    Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  -----------  -----------  --------  ---------  -----------  ----------------------
+     99.9        215979118          2  107989559.0  107989559.0      3390  215975728  152715504.7  cudaMalloc            
+      0.1           119451          2      59725.5      59725.5      7950     111501      73221.6  cudaFree              
+      0.0            56030          2      28015.0      28015.0     20970      35060       9963.1  cudaMemcpy            
+      0.0            27101          1      27101.0      27101.0     27101      27101          0.0  cudaMemset            
+      0.0            17500          2       8750.0       8750.0      4840      12660       5529.6  cudaLaunchKernel      
+      0.0             5160          1       5160.0       5160.0      5160       5160          0.0  cudaThreadSynchronize 
+      0.0             1150          1       1150.0       1150.0      1150       1150          0.0  cuModuleGetLoadingMode
+
+[5/7] Executing 'gpukernsum' stats report
+
+CUDA Kernel Statistics:
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)                                      Name                                    
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  ----------------------------------------------------------------------------
+     52.7             6848          1    6848.0    6848.0      6848      6848          0.0  histogram_kernel(unsigned int *, unsigned int *, unsigned int, unsigned int)
+     47.3             6145          1    6145.0    6145.0      6145      6145          0.0  convert_kernel(unsigned int *, unsigned int)                                
+
+[6/7] Executing 'gpumemtimesum' stats report
+
+CUDA Memory Operation Statistics (by time):
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)      Operation     
+ --------  ---------------  -----  --------  --------  --------  --------  -----------  ------------------
+     42.6             6080      1    6080.0    6080.0      6080      6080          0.0  [CUDA memset]     
+     31.4             4479      1    4479.0    4479.0      4479      4479          0.0  [CUDA memcpy DtoH]
+     26.0             3712      1    3712.0    3712.0      3712      3712          0.0  [CUDA memcpy HtoD]
+
+[7/7] Executing 'gpumemsizesum' stats report
+
+CUDA Memory Operation Statistics (by size):
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+      0.016      1     0.016     0.016     0.016     0.016        0.000  [CUDA memcpy DtoH]
+      0.016      1     0.016     0.016     0.016     0.016        0.000  [CUDA memset]     
+      0.004      1     0.004     0.004     0.004     0.004        0.000  [CUDA memcpy HtoD]
+
+Generated:
+    /scratch/jjwil/GPU_Work/Assignment_GPU_Work/Assignment_3/Q3/hist_1024/report1.nsys-rep
+    /scratch/jjwil/GPU_Work/Assignment_GPU_Work/Assignment_3/Q3/hist_1024/report1.sqlite
+
+END
+
+source ncu ./jjw_histogram 1024 >> $GPU_WORK_Q3/hist_1024_output/my_metrics_1024.txt
+
+==PROF== Connected to process 3067305 (/scratch/jjwil/GPU_Work/Assignment_GPU_Work/Assignment_3/Q3/hist_1024/jjw_histogram)
+==PROF== Profiling "histogram_kernel" - 0: 0%....50%....100% - 10 passes
+==PROF== Profiling "convert_kernel" - 1: 0%....50%....100% - 10 passes
+The input length is 1024
+Data Type: j
+==PROF== Disconnected from process 3067305
+[3067305] jjw_histogram@127.0.0.1
+  histogram_kernel(unsigned int *, unsigned int *, unsigned int, unsigned int), 2022-Dec-03 00:22:05, Context 1, Stream 7
+    Section: GPU Speed Of Light Throughput
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    DRAM Frequency                                                           cycle/usecond                         926.61
+    SM Frequency                                                             cycle/usecond                         584.78
+    Elapsed Cycles                                                                   cycle                           4081
+    Memory [%]                                                                           %                           0.74
+    DRAM Throughput                                                                      %                           0.05
+    Duration                                                                       usecond                           6.98
+    L1/TEX Cache Throughput                                                              %                          45.39
+    L2 Cache Throughput                                                                  %                           0.74
+    SM Active Cycles                                                                 cycle                          19.58
+    Compute (SM) [%]                                                                     %                           0.13
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel grid is too small to fill the available resources on this device, resulting in only 0.0 full      
+          waves across all SMs. Look at Launch Statistics for more details.                                             
+
+    Section: Launch Statistics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Size                                                                                                       1024
+    Function Cache Configuration                                                                  cudaFuncCachePreferNone
+    Grid Size                                                                                                           1
+    Registers Per Thread                                                   register/thread                             16
+    Shared Memory Configuration Size                                                 Kbyte                          65.54
+    Driver Shared Memory Per Block                                             Kbyte/block                           1.02
+    Dynamic Shared Memory Per Block                                             byte/block                              0
+    Static Shared Memory Per Block                                             Kbyte/block                          16.38
+    Threads                                                                         thread                           1024
+    Waves Per SM                                                                                                     0.00
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   The grid for this launch is configured to execute only 1 blocks, which is less than the GPU's 108             
+          multiprocessors. This can underutilize some multiprocessors. If you do not intend to execute this kernel      
+          concurrently with other workloads, consider reducing the block size to have at least one block per            
+          multiprocessor or increase the size of the grid to fully utilize the available hardware resources. See the    
+          Hardware Model (https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html#metrics-hw-model)            
+          description for more details on launch configurations.                                                        
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                              4
+    Block Limit Shared Mem                                                           block                              3
+    Block Limit Warps                                                                block                              2
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                          48.09
+    Achieved Active Warps Per SM                                                      warp                          30.77
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel's theoretical occupancy is not impacted by any block limit. The difference between calculated     
+          theoretical (100.0%) and measured achieved occupancy (48.1%) can be the result of warp scheduling overheads   
+          or workload imbalances during the kernel execution. Load imbalances can occur between warps within a block    
+          as well as across blocks of the same kernel. See the CUDA Best Practices Guide                                
+          (https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#occupancy) for more details on           
+          optimizing occupancy.                                                                                         
+
+  convert_kernel(unsigned int *, unsigned int), 2022-Dec-03 00:22:07, Context 1, Stream 7
+    Section: GPU Speed Of Light Throughput
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    DRAM Frequency                                                           cycle/usecond                         910.87
+    SM Frequency                                                             cycle/usecond                         573.18
+    Elapsed Cycles                                                                   cycle                           3377
+    Memory [%]                                                                           %                           0.81
+    DRAM Throughput                                                                      %                           0.24
+    Duration                                                                       usecond                           5.89
+    L1/TEX Cache Throughput                                                              %                           8.91
+    L2 Cache Throughput                                                                  %                           0.81
+    SM Active Cycles                                                                 cycle                          51.56
+    Compute (SM) [%]                                                                     %                           0.14
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel grid is too small to fill the available resources on this device, resulting in only 0.0 full      
+          waves across all SMs. Look at Launch Statistics for more details.                                             
+
+    Section: Launch Statistics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Size                                                                                                       1024
+    Function Cache Configuration                                                                  cudaFuncCachePreferNone
+    Grid Size                                                                                                           4
+    Registers Per Thread                                                   register/thread                             16
+    Shared Memory Configuration Size                                                 Kbyte                           8.19
+    Driver Shared Memory Per Block                                             Kbyte/block                           1.02
+    Dynamic Shared Memory Per Block                                             byte/block                              0
+    Static Shared Memory Per Block                                              byte/block                              0
+    Threads                                                                         thread                           4096
+    Waves Per SM                                                                                                     0.02
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   The grid for this launch is configured to execute only 4 blocks, which is less than the GPU's 108             
+          multiprocessors. This can underutilize some multiprocessors. If you do not intend to execute this kernel      
+          concurrently with other workloads, consider reducing the block size to have at least one block per            
+          multiprocessor or increase the size of the grid to fully utilize the available hardware resources. See the    
+          Hardware Model (https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html#metrics-hw-model)            
+          description for more details on launch configurations.                                                        
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                              4
+    Block Limit Shared Mem                                                           block                              8
+    Block Limit Warps                                                                block                              2
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                          47.71
+    Achieved Active Warps Per SM                                                      warp                          30.53
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel's theoretical occupancy is not impacted by any block limit. The difference between calculated     
+          theoretical (100.0%) and measured achieved occupancy (47.7%) can be the result of warp scheduling overheads   
+          or workload imbalances during the kernel execution. Load imbalances can occur between warps within a block    
+          as well as across blocks of the same kernel. See the CUDA Best Practices Guide                                
+          (https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#occupancy) for more details on           
+          optimizing occupancy.                                                                                         
+
