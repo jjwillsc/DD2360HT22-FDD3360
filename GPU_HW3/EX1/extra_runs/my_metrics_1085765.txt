@@ -1,7 +1,7 @@
 ==PROF== Connected to process 1258217 (/scratch/jjwil/GPU_Work/Assignment_GPU_Work/Assignment_3/Q1/jjw_vectoradd)
 ==PROF== Profiling "vecAdd" - 0: 0%....50%....100% - 10 passes
 The input length is 1085765
-Host to Deice: 7442 ms elapsed.
+Host to Deice: 7442 ms elapsed. 
 Kernel: 1601334 ms elapsed.
 Device To Host: 2164 ms elapsed.
 ==PROF== Disconnected from process 1258217
