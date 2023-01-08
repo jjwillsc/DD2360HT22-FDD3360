@@ -1,3 +1,3 @@
 # DD2360HT22-FDD3360 
-## Applied GPU Programming Course Work at KTH Royal Institute of Technology
+## Applied GPU Programming at KTH Royal Institute of Technology
 
