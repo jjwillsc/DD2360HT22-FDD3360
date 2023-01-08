@@ -49,7 +49,7 @@ The below table shows the parameters we used to configure the application for ou
 
 ## Compiling and Building
 
-All source code can complied and builded using a makefile updated from the Rodinia Benchmark Suite 3.1 designed for the LavaMD2 implementations.  
+All source code can be complied and builded using the provided makefile updated from the Rodinia Benchmark Suite 3.1 designed for the LavaMD2 implementations.  
 
 Usage:
 
@@ -62,9 +62,9 @@ make > /scratch/jjwil/GPU_Work/src/.../Review_lavaMD_streams_threads/jjw_output_
 
 The code takes the followint parameters:
 
--boxes1d	(number of boxes in one dimension, which is (boxes1d) (boxes1d) (boxes1d))
+-boxes1d	(number of boxes in one dimension, which is (boxes1d) (boxes1d) (boxes1d) in three dimensions)
 
-The below table shows the input parameters used by the application with one value of boxes1d selected.
+The below table shows the input parameters used by the application with one select boxes1d value at a time.
 
 | Parameter   | Value (s)     | 
 | ------------- | ------------- | 
@@ -72,15 +72,13 @@ The below table shows the input parameters used by the application with one valu
 | Thread Block Size of the Kernel | 128 | 
 | Number of CUDA Streams         | 4 | 
 
-The code can be execution as followed: 
+The code can be executed as followed: 
 
 ./lavaMD -boxes1d 160 
 
 ## Profiling 
 
-NVIDIA Nsight Systems and NVIDIA Nsight Compute was the main profiling tools used on Rodinia LavaMD2 CUDA baseline and optimized versions.
-
-Usage:
+As previously mentioned, NVIDIA Nsight Systems and NVIDIA Nsight Compute were used to collect profiling results. 
 
 ### NVIDIA Nsight Systems
 
@@ -96,4 +94,4 @@ source ncu --target-processes all -o /lavaMD_160/ncu_lavaMD_160-output ./lavaMD 
 
 ## Performance Results
 
-![LavaMD-CUDA-Streams_UVA_Diff_Pic3](https://user-images.githubusercontent.com/117684550/211210813-84b3235c-9f2b-4ab3-9989-d4b20c35c1e2.png)
+![LavaMD-CUDA-Streams_UVA_Diff_Pic3](https://github.com/jjwillsc/DD2360HT22-FDD3360/blob/main/GPU_Project-Final-Work/lavaMD-Results-Plots/LavaMD-CUDA-Streams_UVA_Diff_Pic3.png)
