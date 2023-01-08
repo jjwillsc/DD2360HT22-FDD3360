@@ -1,4 +1,4 @@
-# Applied GPU Programming w/ Rodinia LavaMD2 Profiling and Optimizations
+# Rodinia LavaMD2 GPU Profiling and Optimizations
 
 ### Background and Description
 
