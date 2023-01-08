@@ -18,7 +18,7 @@ The KTH HPC Group GPU system called “NJ” was used and it is equipped with a 
 
 The below table shows the standard architectureal features on NJ.  
 
-|NJ Feature|Value|
+|Name|Value|
 | ------------- | ------------- | 
 |Model|NVIDIA Ampere|
 |Cores|6,912|
