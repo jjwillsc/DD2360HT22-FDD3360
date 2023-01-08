@@ -1,0 +1,58 @@
+==PROF== Connected to process 1265738 (/scratch/jjwil/GPU_Work/Assignment_GPU_Work/Assignment_3/Q1/jjw_vectoradd)
+==PROF== Profiling "vecAdd" - 0: 0%....50%....100% - 10 passes
+The input length is 5314831
+Host to Deice: 9585 ms elapsed.
+Kernel: 1603150 ms elapsed.
+Device To Host: 7891 ms elapsed.
+==PROF== Disconnected from process 1265738
+[1265738] jjw_vectoradd@127.0.0.1
+  vecAdd(double *, double *, double *, int), 2022-Dec-02 08:54:44, Context 1, Stream 7
+    Section: GPU Speed Of Light Throughput
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    DRAM Frequency                                                           cycle/nsecond                           1.18
+    SM Frequency                                                             cycle/usecond                         742.40
+    Elapsed Cycles                                                                   cycle                          67976
+    Memory [%]                                                                           %                          84.01
+    DRAM Throughput                                                                      %                          84.01
+    Duration                                                                       usecond                          91.55
+    L1/TEX Cache Throughput                                                              %                          23.75
+    L2 Cache Throughput                                                                  %                          91.66
+    SM Active Cycles                                                                 cycle                       64758.19
+    Compute (SM) [%]                                                                     %                           9.12
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    INF   The kernel is utilizing greater than 80.0% of the available compute or memory performance of the device. To   
+          further improve performance, work will likely need to be shifted from the most utilized to another unit.      
+          Start by analyzing DRAM in the Memory Workload Analysis section.                                              
+
+    Section: Launch Statistics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Size                                                                                                        256
+    Function Cache Configuration                                                                  cudaFuncCachePreferNone
+    Grid Size                                                                                                       20762
+    Registers Per Thread                                                   register/thread                             16
+    Shared Memory Configuration Size                                                 Kbyte                          32.77
+    Driver Shared Memory Per Block                                             Kbyte/block                           1.02
+    Dynamic Shared Memory Per Block                                             byte/block                              0
+    Static Shared Memory Per Block                                              byte/block                              0
+    Threads                                                                         thread                        5315072
+    Waves Per SM                                                                                                    24.03
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                             16
+    Block Limit Shared Mem                                                           block                             32
+    Block Limit Warps                                                                block                              8
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                          88.05
+    Achieved Active Warps Per SM                                                      warp                          56.35
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    WRN   This kernel's theoretical occupancy is not impacted by any block limit. The difference between calculated     
+          theoretical (100.0%) and measured achieved occupancy (88.1%) can be the result of warp scheduling overheads   
+          or workload imbalances during the kernel execution. Load imbalances can occur between warps within a block    
+          as well as across blocks of the same kernel. See the CUDA Best Practices Guide                                
+          (https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#occupancy) for more details on           
+          optimizing occupancy.                                                                                         
+

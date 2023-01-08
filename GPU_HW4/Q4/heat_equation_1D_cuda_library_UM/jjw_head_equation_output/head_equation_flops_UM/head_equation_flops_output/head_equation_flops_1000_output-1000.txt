@@ -1,0 +1,36 @@
+Sat Dec 24 16:11:56 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA A100-PCI...  Off  | 00000000:43:00.0 Off |                    0 |
+| N/A   27C    P0    35W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA A100-PCI...  Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   33C    P0    35W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+The X dimension of the grid is 1000 
+The number of time steps to perform is 1000 
+Timing - Allocating device memory. 		Elasped 0.181701000000 seconds 
+Timing - Prefetching GPU memory to the host. 		Elasped 0.000000000000 seconds 
+Timing - Initializing the sparse matrix on the host. 		Elasped 0.000039000000 seconds 
+Timing - Initializing memory on the host. 		Elasped 0.000003000000 seconds 
+Timing - Prefetching GPU memory to the device. 		Elasped 0.000359000000 seconds 
+Timing - SpMV. 		Elasped 0.000070000000 seconds 
+Time spent executing by the GPU: 0.00007000s
+GFLOPs spent executing by the GPU: 0.68
+

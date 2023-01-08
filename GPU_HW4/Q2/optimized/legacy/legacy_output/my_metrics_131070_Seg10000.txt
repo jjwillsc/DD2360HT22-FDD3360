@@ -1,0 +1,106 @@
+Sun Dec 18 15:37:12 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA A100-PCI...  Off  | 00000000:43:00.0 Off |                    0 |
+| N/A   26C    P0    35W / 250W |      2MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA A100-PCI...  Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   34C    P0    39W / 250W |      2MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+The input length is 131070, and the segment size is 10000
+Host to Device: 78 ms elapsed.
+Kernel: 51 ms elapsed.
+Device To Host: 192 ms elapsed.
+
+The input length is 131070, and the segment size is 10000
+Host to Device: 126 ms elapsed.
+Kernel: 95 ms elapsed.
+Device To Host: 291 ms elapsed.
+Generating '/tmp/nsys-report-f31a.qdstrm'
+[1/7] [0%                          ] nsys_profile_131070_Seg10000.nsys-rep[1/7] [0%                          ] nsys_profile_131070_Seg10000.nsys-rep[1/7] [=====29%                    ] nsys_profile_131070_Seg10000.nsys-rep[1/7] [============57%             ] nsys_profile_131070_Seg10000.nsys-rep[1/7] [=====================86%    ] nsys_profile_131070_Seg10000.nsys-rep[1/7] [========================100%] nsys_profile_131070_Seg10000.nsys-rep
+[2/7] [0%                          ] nsys_profile_131070_Seg10000.sqlite[2/7] [1%                          ] nsys_profile_131070_Seg10000.sqlite[2/7] [2%                          ] nsys_profile_131070_Seg10000.sqlite[2/7] [3%                          ] nsys_profile_131070_Seg10000.sqlite[2/7] [4%                          ] nsys_profile_131070_Seg10000.sqlite[2/7] [5%                          ] nsys_profile_131070_Seg10000.sqlite[2/7] [6%                          ] nsys_profile_131070_Seg10000.sqlite[2/7] [7%                          ] nsys_profile_131070_Seg10000.sqlite[2/7] [8%                          ] nsys_profile_131070_Seg10000.sqlite[2/7] [9%                          ] nsys_profile_131070_Seg10000.sqlite[2/7] [10%                         ] nsys_profile_131070_Seg10000.sqlite[2/7] [11%                         ] nsys_profile_131070_Seg10000.sqlite[2/7] [12%                         ] nsys_profile_131070_Seg10000.sqlite[2/7] [13%                         ] nsys_profile_131070_Seg10000.sqlite[2/7] [14%                         ] nsys_profile_131070_Seg10000.sqlite[2/7] [=15%                        ] nsys_profile_131070_Seg10000.sqlite[2/7] [=16%                        ] nsys_profile_131070_Seg10000.sqlite[2/7] [=17%                        ] nsys_profile_131070_Seg10000.sqlite[2/7] [==18%                       ] nsys_profile_131070_Seg10000.sqlite[2/7] [==19%                       ] nsys_profile_131070_Seg10000.sqlite[2/7] [==20%                       ] nsys_profile_131070_Seg10000.sqlite[2/7] [==21%                       ] nsys_profile_131070_Seg10000.sqlite[2/7] [===22%                      ] nsys_profile_131070_Seg10000.sqlite[2/7] [===23%                      ] nsys_profile_131070_Seg10000.sqlite[2/7] [===24%                      ] nsys_profile_131070_Seg10000.sqlite[2/7] [====25%                     ] nsys_profile_131070_Seg10000.sqlite[2/7] [====26%                     ] nsys_profile_131070_Seg10000.sqlite[2/7] [====27%                     ] nsys_profile_131070_Seg10000.sqlite[2/7] [====28%                     ] nsys_profile_131070_Seg10000.sqlite[2/7] [=====29%                    ] nsys_profile_131070_Seg10000.sqlite[2/7] [=====30%                    ] nsys_profile_131070_Seg10000.sqlite[2/7] [=====31%                    ] nsys_profile_131070_Seg10000.sqlite[2/7] [=====32%                    ] nsys_profile_131070_Seg10000.sqlite[2/7] [======33%                   ] nsys_profile_131070_Seg10000.sqlite[2/7] [======34%                   ] nsys_profile_131070_Seg10000.sqlite[2/7] [======35%                   ] nsys_profile_131070_Seg10000.sqlite[2/7] [=======36%                  ] nsys_profile_131070_Seg10000.sqlite[2/7] [=======37%                  ] nsys_profile_131070_Seg10000.sqlite[2/7] [=======38%                  ] nsys_profile_131070_Seg10000.sqlite[2/7] [=======39%                  ] nsys_profile_131070_Seg10000.sqlite[2/7] [========40%                 ] nsys_profile_131070_Seg10000.sqlite[2/7] [========41%                 ] nsys_profile_131070_Seg10000.sqlite[2/7] [========42%                 ] nsys_profile_131070_Seg10000.sqlite[2/7] [=========43%                ] nsys_profile_131070_Seg10000.sqlite[2/7] [=========44%                ] nsys_profile_131070_Seg10000.sqlite[2/7] [=========45%                ] nsys_profile_131070_Seg10000.sqlite[2/7] [=========46%                ] nsys_profile_131070_Seg10000.sqlite[2/7] [==========47%               ] nsys_profile_131070_Seg10000.sqlite[2/7] [==========48%               ] nsys_profile_131070_Seg10000.sqlite[2/7] [==========49%               ] nsys_profile_131070_Seg10000.sqlite[2/7] [===========50%              ] nsys_profile_131070_Seg10000.sqlite[2/7] [===========51%              ] nsys_profile_131070_Seg10000.sqlite[2/7] [===========52%              ] nsys_profile_131070_Seg10000.sqlite[2/7] [===========53%              ] nsys_profile_131070_Seg10000.sqlite[2/7] [============54%             ] nsys_profile_131070_Seg10000.sqlite[2/7] [============55%             ] nsys_profile_131070_Seg10000.sqlite[2/7] [============56%             ] nsys_profile_131070_Seg10000.sqlite[2/7] [============57%             ] nsys_profile_131070_Seg10000.sqlite[2/7] [=============58%            ] nsys_profile_131070_Seg10000.sqlite[2/7] [=============59%            ] nsys_profile_131070_Seg10000.sqlite[2/7] [=============60%            ] nsys_profile_131070_Seg10000.sqlite[2/7] [==============61%           ] nsys_profile_131070_Seg10000.sqlite[2/7] [==============62%           ] nsys_profile_131070_Seg10000.sqlite[2/7] [==============63%           ] nsys_profile_131070_Seg10000.sqlite[2/7] [==============64%           ] nsys_profile_131070_Seg10000.sqlite[2/7] [===============65%          ] nsys_profile_131070_Seg10000.sqlite[2/7] [===============66%          ] nsys_profile_131070_Seg10000.sqlite[2/7] [===============67%          ] nsys_profile_131070_Seg10000.sqlite[2/7] [================68%         ] nsys_profile_131070_Seg10000.sqlite[2/7] [================69%         ] nsys_profile_131070_Seg10000.sqlite[2/7] [================70%         ] nsys_profile_131070_Seg10000.sqlite[2/7] [================71%         ] nsys_profile_131070_Seg10000.sqlite[2/7] [=================72%        ] nsys_profile_131070_Seg10000.sqlite[2/7] [=================73%        ] nsys_profile_131070_Seg10000.sqlite[2/7] [=================74%        ] nsys_profile_131070_Seg10000.sqlite[2/7] [==================75%       ] nsys_profile_131070_Seg10000.sqlite[2/7] [==================76%       ] nsys_profile_131070_Seg10000.sqlite[2/7] [==================77%       ] nsys_profile_131070_Seg10000.sqlite[2/7] [==================78%       ] nsys_profile_131070_Seg10000.sqlite[2/7] [===================79%      ] nsys_profile_131070_Seg10000.sqlite[2/7] [===================80%      ] nsys_profile_131070_Seg10000.sqlite[2/7] [===================81%      ] nsys_profile_131070_Seg10000.sqlite[2/7] [===================82%      ] nsys_profile_131070_Seg10000.sqlite[2/7] [====================83%     ] nsys_profile_131070_Seg10000.sqlite[2/7] [====================84%     ] nsys_profile_131070_Seg10000.sqlite[2/7] [====================85%     ] nsys_profile_131070_Seg10000.sqlite[2/7] [=====================86%    ] nsys_profile_131070_Seg10000.sqlite[2/7] [=====================87%    ] nsys_profile_131070_Seg10000.sqlite[2/7] [=====================88%    ] nsys_profile_131070_Seg10000.sqlite[2/7] [=====================89%    ] nsys_profile_131070_Seg10000.sqlite[2/7] [======================90%   ] nsys_profile_131070_Seg10000.sqlite[2/7] [======================91%   ] nsys_profile_131070_Seg10000.sqlite[2/7] [======================92%   ] nsys_profile_131070_Seg10000.sqlite[2/7] [=======================93%  ] nsys_profile_131070_Seg10000.sqlite[2/7] [=======================94%  ] nsys_profile_131070_Seg10000.sqlite[2/7] [=======================95%  ] nsys_profile_131070_Seg10000.sqlite[2/7] [=======================96%  ] nsys_profile_131070_Seg10000.sqlite[2/7] [========================97% ] nsys_profile_131070_Seg10000.sqlite[2/7] [========================98% ] nsys_profile_131070_Seg10000.sqlite[2/7] [========================99% ] nsys_profile_131070_Seg10000.sqlite[2/7] [========================100%] nsys_profile_131070_Seg10000.sqlite[2/7] [========================100%] nsys_profile_131070_Seg10000.sqlite
+[3/7] Executing 'nvtxsum' stats report
+[4/7] Executing 'cudaapisum' stats report
+
+CUDA API Statistics:
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)   Med (ns)  Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  --------  --------  ---------  -----------  ----------------------
+     98.9        215490928          4  53872732.0    2250.0      1820  215484608  107741250.7  cudaStreamCreate      
+      0.7          1488062          4    372015.5  331987.5      6340     817747     427082.2  cudaHostAlloc         
+      0.1           233722          1    233722.0  233722.0    233722     233722          0.0  cudaThreadSynchronize 
+      0.1           197331          3     65777.0   78690.0      4360     114281      56086.7  cudaMalloc            
+      0.1           180572          7     25796.0     760.0       440     102721      41029.0  cudaFree              
+      0.1           166592         42      3966.5    3380.0      3160      17831       2286.1  cudaMemcpyAsync       
+      0.0            92071         14      6576.5    4110.0      3850      28961       6664.8  cudaLaunchKernel      
+      0.0             1140          1      1140.0    1140.0      1140       1140          0.0  cuModuleGetLoadingMode
+
+[5/7] Executing 'gpukernsum' stats report
+
+CUDA Kernel Statistics:
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)                    Name                   
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  -----------------------------------------
+    100.0           101185         14    7227.5    7008.0      6112      8544        951.1  vecAdd(double *, double *, double *, int)
+
+[6/7] Executing 'gpumemtimesum' stats report
+
+CUDA Memory Operation Statistics (by time):
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)      Operation     
+ --------  ---------------  -----  --------  --------  --------  --------  -----------  ------------------
+     65.2           235870     28    8423.9    8352.0      4256     11264       1343.6  [CUDA memcpy HtoD]
+     34.8           125761     14    8982.9    9888.0      3008     10816       2094.0  [CUDA memcpy DtoH]
+
+[7/7] Executing 'gpumemsizesum' stats report
+
+CUDA Memory Operation Statistics (by size):
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+      2.097     28     0.075     0.080     0.009     0.080        0.019  [CUDA memcpy HtoD]
+      1.049     14     0.075     0.080     0.009     0.080        0.019  [CUDA memcpy DtoH]
+
+Generated:
+    /scratch/jjwil/GPU_Work/Assignment_GPU_Work/Final_Assignment_4/Q2/optimized/legacy/legacy_output/nsys_profile_131070_Seg10000.nsys-rep
+    /scratch/jjwil/GPU_Work/Assignment_GPU_Work/Final_Assignment_4/Q2/optimized/legacy/legacy_output/nsys_profile_131070_Seg10000.sqlite
+
+END
+
+==PROF== Connected to process 376870 (/scratch/jjwil/GPU_Work/Assignment_GPU_Work/Final_Assignment_4/Q2/optimized/legacy/jjw_vector_addition-streamed_legacy)
+==PROF== Profiling "vecAdd" - 0: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 1: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 2: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 3: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 4: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 5: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 6: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 7: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 8: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 9: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 10: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 11: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 12: 0%....50%....100% - 10 passes
+==PROF== Profiling "vecAdd" - 13: 0%....50%....100% - 10 passes
+The input length is 131070, and the segment size is 10000
+Host to Device: 144 ms elapsed.
+Kernel: 17612328 ms elapsed.
+Device To Host: 151 ms elapsed.
+==PROF== Disconnected from process 376870
+==PROF== Report: /scratch/jjwil/GPU_Work/Assignment_GPU_Work/Final_Assignment_4/Q2/optimized/legacy/legacy_output/ncu_profile_131070_Seg10000.ncu-rep

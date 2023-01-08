@@ -1,0 +1,138 @@
+Fri Dec  2 19:59:09 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA A100-PCI...  Off  | 00000000:43:00.0 Off |                    0 |
+| N/A   28C    P0    35W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA A100-PCI...  Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   36C    P0    36W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+Input matrix dim (511 x 1023) (1023 x 4094) (511 x 4094)
+Data Type: f
+Host to Deice: 1348 ms elapsed.
+Kernel: 29 ms elapsed.
+Device To Host: 4200 ms elapsed.
+
+Input matrix dim (511 x 1023) (1023 x 4094) (511 x 4094)
+Data Type: f
+Host to Deice: 1537 ms elapsed.
+Kernel: 48 ms elapsed.
+Device To Host: 4071 ms elapsed.
+Generating '/tmp/nsys-report-1041.qdstrm'
+[1/7] [0%                          ] report5.nsys-rep[1/7] [0%                          ] report5.nsys-rep[1/7] [6%                          ] report5.nsys-rep[1/7] [===========50%              ] report5.nsys-rep[1/7] [=======================93%  ] report5.nsys-rep[1/7] [========================100%] report5.nsys-rep
+[2/7] [0%                          ] report5.sqlite[2/7] [1%                          ] report5.sqlite[2/7] [2%                          ] report5.sqlite[2/7] [3%                          ] report5.sqlite[2/7] [4%                          ] report5.sqlite[2/7] [5%                          ] report5.sqlite[2/7] [6%                          ] report5.sqlite[2/7] [7%                          ] report5.sqlite[2/7] [8%                          ] report5.sqlite[2/7] [9%                          ] report5.sqlite[2/7] [10%                         ] report5.sqlite[2/7] [11%                         ] report5.sqlite[2/7] [12%                         ] report5.sqlite[2/7] [13%                         ] report5.sqlite[2/7] [14%                         ] report5.sqlite[2/7] [=15%                        ] report5.sqlite[2/7] [=16%                        ] report5.sqlite[2/7] [=17%                        ] report5.sqlite[2/7] [==18%                       ] report5.sqlite[2/7] [==19%                       ] report5.sqlite[2/7] [==20%                       ] report5.sqlite[2/7] [==21%                       ] report5.sqlite[2/7] [===22%                      ] report5.sqlite[2/7] [===23%                      ] report5.sqlite[2/7] [===24%                      ] report5.sqlite[2/7] [====25%                     ] report5.sqlite[2/7] [====26%                     ] report5.sqlite[2/7] [====27%                     ] report5.sqlite[2/7] [====28%                     ] report5.sqlite[2/7] [=====29%                    ] report5.sqlite[2/7] [=====30%                    ] report5.sqlite[2/7] [=====31%                    ] report5.sqlite[2/7] [=====32%                    ] report5.sqlite[2/7] [======33%                   ] report5.sqlite[2/7] [======34%                   ] report5.sqlite[2/7] [======35%                   ] report5.sqlite[2/7] [=======36%                  ] report5.sqlite[2/7] [=======37%                  ] report5.sqlite[2/7] [=======38%                  ] report5.sqlite[2/7] [=======39%                  ] report5.sqlite[2/7] [========40%                 ] report5.sqlite[2/7] [========41%                 ] report5.sqlite[2/7] [========42%                 ] report5.sqlite[2/7] [=========43%                ] report5.sqlite[2/7] [=========44%                ] report5.sqlite[2/7] [=========45%                ] report5.sqlite[2/7] [=========46%                ] report5.sqlite[2/7] [==========47%               ] report5.sqlite[2/7] [==========48%               ] report5.sqlite[2/7] [==========49%               ] report5.sqlite[2/7] [===========50%              ] report5.sqlite[2/7] [===========51%              ] report5.sqlite[2/7] [===========52%              ] report5.sqlite[2/7] [===========53%              ] report5.sqlite[2/7] [============54%             ] report5.sqlite[2/7] [============55%             ] report5.sqlite[2/7] [============56%             ] report5.sqlite[2/7] [============57%             ] report5.sqlite[2/7] [=============58%            ] report5.sqlite[2/7] [=============59%            ] report5.sqlite[2/7] [=============60%            ] report5.sqlite[2/7] [==============61%           ] report5.sqlite[2/7] [==============62%           ] report5.sqlite[2/7] [==============63%           ] report5.sqlite[2/7] [==============64%           ] report5.sqlite[2/7] [===============65%          ] report5.sqlite[2/7] [===============66%          ] report5.sqlite[2/7] [===============67%          ] report5.sqlite[2/7] [================68%         ] report5.sqlite[2/7] [================69%         ] report5.sqlite[2/7] [================70%         ] report5.sqlite[2/7] [================71%         ] report5.sqlite[2/7] [=================72%        ] report5.sqlite[2/7] [=================73%        ] report5.sqlite[2/7] [=================74%        ] report5.sqlite[2/7] [==================75%       ] report5.sqlite[2/7] [==================76%       ] report5.sqlite[2/7] [==================77%       ] report5.sqlite[2/7] [==================78%       ] report5.sqlite[2/7] [===================79%      ] report5.sqlite[2/7] [===================80%      ] report5.sqlite[2/7] [===================81%      ] report5.sqlite[2/7] [===================82%      ] report5.sqlite[2/7] [====================83%     ] report5.sqlite[2/7] [====================84%     ] report5.sqlite[2/7] [====================85%     ] report5.sqlite[2/7] [=====================86%    ] report5.sqlite[2/7] [=====================87%    ] report5.sqlite[2/7] [=====================88%    ] report5.sqlite[2/7] [=====================89%    ] report5.sqlite[2/7] [======================90%   ] report5.sqlite[2/7] [======================91%   ] report5.sqlite[2/7] [======================92%   ] report5.sqlite[2/7] [=======================93%  ] report5.sqlite[2/7] [=======================94%  ] report5.sqlite[2/7] [=======================95%  ] report5.sqlite[2/7] [=======================96%  ] report5.sqlite[2/7] [========================97% ] report5.sqlite[2/7] [========================98% ] report5.sqlite[2/7] [========================99% ] report5.sqlite[2/7] [========================100%] report5.sqlite[2/7] [========================100%] report5.sqlite
+[3/7] Executing 'nvtxsum' stats report
+[4/7] Executing 'cudaapisum' stats report
+
+CUDA API Statistics:
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)   Med (ns)   Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  ---------  --------  ---------  -----------  ----------------------
+     97.3        214290045          3  71430015.0    96391.0     73140  214120514  123573597.6  cudaMalloc            
+      2.5          5604558          3   1868186.0  1335812.0    196111    4072635    1992341.9  cudaMemcpy            
+      0.2           389003          3    129667.7    83291.0     78210     227502      84765.1  cudaFree              
+      0.0            38170          1     38170.0    38170.0     38170      38170          0.0  cudaLaunchKernel      
+      0.0             6420          1      6420.0     6420.0      6420       6420          0.0  cudaThreadSynchronize 
+      0.0             1080          1      1080.0     1080.0      1080       1080          0.0  cuModuleGetLoadingMode
+
+[5/7] Executing 'gpukernsum' stats report
+
+CUDA Kernel Statistics:
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)                         Name                        
+ --------  ---------------  ---------  ---------  ---------  --------  --------  -----------  ---------------------------------------------------
+    100.0          2125443          1  2125443.0  2125443.0   2125443   2125443          0.0  gemm(float *, float *, float *, int, int, int, int)
+
+[6/7] Executing 'gpumemtimesum' stats report
+
+CUDA Memory Operation Statistics (by time):
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)      Operation     
+ --------  ---------------  -----  ---------  ---------  --------  --------  -----------  ------------------
+     51.4          1466466      1  1466466.0  1466466.0   1466466   1466466          0.0  [CUDA memcpy DtoH]
+     48.6          1385378      2   692689.0   692689.0    144288   1241090     775556.1  [CUDA memcpy HtoD]
+
+[7/7] Executing 'gpumemsizesum' stats report
+
+CUDA Memory Operation Statistics (by size):
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+     18.844      2     9.422     9.422     2.091    16.753       10.367  [CUDA memcpy HtoD]
+      8.368      1     8.368     8.368     8.368     8.368        0.000  [CUDA memcpy DtoH]
+
+Generated:
+    /scratch/jjwil/GPU_Work/Assignment_GPU_Work/Assignment_3/Q2/report5.nsys-rep
+    /scratch/jjwil/GPU_Work/Assignment_GPU_Work/Assignment_3/Q2/report5.sqlite
+
+END
+
+==PROF== Connected to process 2672278 (/scratch/jjwil/GPU_Work/Assignment_GPU_Work/Assignment_3/Q2/jjw_matrix_multiply_float)
+==PROF== Profiling "gemm" - 0: 0%....50%....100% - 10 passes
+Input matrix dim (511 x 1023) (1023 x 4094) (511 x 4094)
+Data Type: f
+Host to Deice: 7528 ms elapsed.
+Kernel: 1620099 ms elapsed.
+Device To Host: 1911 ms elapsed.
+==PROF== Disconnected from process 2672278
+[2672278] jjw_matrix_multiply_float@127.0.0.1
+  gemm(float *, float *, float *, int, int, int, int), 2022-Dec-02 20:56:33, Context 1, Stream 7
+    Section: GPU Speed Of Light Throughput
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    DRAM Frequency                                                           cycle/nsecond                           1.21
+    SM Frequency                                                             cycle/usecond                         764.28
+    Elapsed Cycles                                                                   cycle                        1631893
+    Memory [%]                                                                           %                          77.43
+    DRAM Throughput                                                                      %                           0.78
+    Duration                                                                       msecond                           2.14
+    L1/TEX Cache Throughput                                                              %                          77.96
+    L2 Cache Throughput                                                                  %                          10.54
+    SM Active Cycles                                                                 cycle                     1620790.15
+    Compute (SM) [%]                                                                     %                          76.04
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    INF   Compute and Memory are well-balanced: To reduce runtime, both computation and memory traffic must be reduced. 
+          Check both the Compute Workload Analysis and Memory Workload Analysis sections.                               
+
+    Section: Launch Statistics
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Size                                                                                                       1024
+    Function Cache Configuration                                                                  cudaFuncCachePreferNone
+    Grid Size                                                                                                        2048
+    Registers Per Thread                                                   register/thread                             32
+    Shared Memory Configuration Size                                                 Kbyte                           8.19
+    Driver Shared Memory Per Block                                             Kbyte/block                           1.02
+    Dynamic Shared Memory Per Block                                             byte/block                              0
+    Static Shared Memory Per Block                                              byte/block                              0
+    Threads                                                                         thread                        2097152
+    Waves Per SM                                                                                                     9.48
+    ---------------------------------------------------------------------- --------------- ------------------------------
+
+    Section: Occupancy
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    Block Limit SM                                                                   block                             32
+    Block Limit Registers                                                            block                              2
+    Block Limit Shared Mem                                                           block                              8
+    Block Limit Warps                                                                block                              2
+    Theoretical Active Warps per SM                                                   warp                             64
+    Theoretical Occupancy                                                                %                            100
+    Achieved Occupancy                                                                   %                          95.97
+    Achieved Active Warps Per SM                                                      warp                          61.42
+    ---------------------------------------------------------------------- --------------- ------------------------------
+    INF   This kernel's theoretical occupancy is not impacted by any block limit.                                       
+

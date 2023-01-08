@@ -1,0 +1,107 @@
+Sat Dec 24 20:24:58 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA A100-PCI...  Off  | 00000000:43:00.0 Off |                    0 |
+| N/A   26C    P0    35W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA A100-PCI...  Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   35C    P0    36W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+The X dimension of the grid is 600 
+The number of time steps to perform is 600 
+Timing - Allocating device memory. 		Elasped 0.181080000000 seconds 
+Timing - Prefetching GPU memory to the host. 		Elasped 0.000000000000 seconds 
+Timing - Initializing the sparse matrix on the host. 		Elasped 0.000031000000 seconds 
+Timing - Initializing memory on the host. 		Elasped 0.000004000000 seconds 
+Timing - Prefetching GPU memory to the device. 		Elasped 0.000327000000 seconds 
+Timing - Time step interations. 		Elasped 0.058214000000 seconds 
+The relative error of the approximation is 4.985002
+
+The X dimension of the grid is 600 
+The number of time steps to perform is 600 
+Timing - Allocating device memory. 		Elasped 0.215008000000 seconds 
+Timing - Prefetching GPU memory to the host. 		Elasped 0.000000000000 seconds 
+Timing - Initializing the sparse matrix on the host. 		Elasped 0.000067000000 seconds 
+Timing - Initializing memory on the host. 		Elasped 0.000004000000 seconds 
+Timing - Prefetching GPU memory to the device. 		Elasped 0.000634000000 seconds 
+Timing - Time step interations. 		Elasped 0.075437000000 seconds 
+The relative error of the approximation is 4.985002
+Generating '/tmp/nsys-report-439b.qdstrm'
+[1/7] [0%                          ] nsys_no_prefetching_600_output-600.nsys-rep[1/7] [0%                          ] nsys_no_prefetching_600_output-600.nsys-rep[1/7] [2%                          ] nsys_no_prefetching_600_output-600.nsys-rep[1/7] [4%                          ] nsys_no_prefetching_600_output-600.nsys-rep[1/7] [=====30%                    ] nsys_no_prefetching_600_output-600.nsys-rep[1/7] [============55%             ] nsys_no_prefetching_600_output-600.nsys-rep[1/7] [===================81%      ] nsys_no_prefetching_600_output-600.nsys-rep[1/7] [===================82%      ] nsys_no_prefetching_600_output-600.nsys-rep[1/7] [========================100%] nsys_no_prefetching_600_output-600.nsys-rep[1/7] [========================100%] nsys_no_prefetching_600_output-600.nsys-rep
+[2/7] [0%                          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [1%                          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [2%                          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [3%                          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [4%                          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [5%                          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [6%                          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [7%                          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [8%                          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [9%                          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [10%                         ] nsys_no_prefetching_600_output-600.sqlite[2/7] [11%                         ] nsys_no_prefetching_600_output-600.sqlite[2/7] [12%                         ] nsys_no_prefetching_600_output-600.sqlite[2/7] [13%                         ] nsys_no_prefetching_600_output-600.sqlite[2/7] [14%                         ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=15%                        ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=16%                        ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=17%                        ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==18%                       ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==19%                       ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==20%                       ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==21%                       ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===22%                      ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===23%                      ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===24%                      ] nsys_no_prefetching_600_output-600.sqlite[2/7] [====25%                     ] nsys_no_prefetching_600_output-600.sqlite[2/7] [====26%                     ] nsys_no_prefetching_600_output-600.sqlite[2/7] [====27%                     ] nsys_no_prefetching_600_output-600.sqlite[2/7] [====28%                     ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=====29%                    ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=====30%                    ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=====31%                    ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=====32%                    ] nsys_no_prefetching_600_output-600.sqlite[2/7] [======33%                   ] nsys_no_prefetching_600_output-600.sqlite[2/7] [======34%                   ] nsys_no_prefetching_600_output-600.sqlite[2/7] [======35%                   ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=======36%                  ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=======37%                  ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=======38%                  ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=======39%                  ] nsys_no_prefetching_600_output-600.sqlite[2/7] [========40%                 ] nsys_no_prefetching_600_output-600.sqlite[2/7] [========41%                 ] nsys_no_prefetching_600_output-600.sqlite[2/7] [========42%                 ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=========43%                ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=========44%                ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=========45%                ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=========46%                ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==========47%               ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==========48%               ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==========49%               ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===========50%              ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===========51%              ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===========52%              ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===========53%              ] nsys_no_prefetching_600_output-600.sqlite[2/7] [============54%             ] nsys_no_prefetching_600_output-600.sqlite[2/7] [============55%             ] nsys_no_prefetching_600_output-600.sqlite[2/7] [============56%             ] nsys_no_prefetching_600_output-600.sqlite[2/7] [============57%             ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=============58%            ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=============59%            ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=============60%            ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==============61%           ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==============62%           ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==============63%           ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==============64%           ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===============65%          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===============66%          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===============67%          ] nsys_no_prefetching_600_output-600.sqlite[2/7] [================68%         ] nsys_no_prefetching_600_output-600.sqlite[2/7] [================69%         ] nsys_no_prefetching_600_output-600.sqlite[2/7] [================70%         ] nsys_no_prefetching_600_output-600.sqlite[2/7] [================71%         ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=================72%        ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=================73%        ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=================74%        ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==================75%       ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==================76%       ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==================77%       ] nsys_no_prefetching_600_output-600.sqlite[2/7] [==================78%       ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===================79%      ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===================80%      ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===================81%      ] nsys_no_prefetching_600_output-600.sqlite[2/7] [===================82%      ] nsys_no_prefetching_600_output-600.sqlite[2/7] [====================83%     ] nsys_no_prefetching_600_output-600.sqlite[2/7] [====================84%     ] nsys_no_prefetching_600_output-600.sqlite[2/7] [====================85%     ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=====================86%    ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=====================87%    ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=====================88%    ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=====================89%    ] nsys_no_prefetching_600_output-600.sqlite[2/7] [======================90%   ] nsys_no_prefetching_600_output-600.sqlite[2/7] [======================91%   ] nsys_no_prefetching_600_output-600.sqlite[2/7] [======================92%   ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=======================93%  ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=======================94%  ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=======================95%  ] nsys_no_prefetching_600_output-600.sqlite[2/7] [=======================96%  ] nsys_no_prefetching_600_output-600.sqlite[2/7] [========================97% ] nsys_no_prefetching_600_output-600.sqlite[2/7] [========================98% ] nsys_no_prefetching_600_output-600.sqlite[2/7] [========================99% ] nsys_no_prefetching_600_output-600.sqlite[2/7] [========================100%] nsys_no_prefetching_600_output-600.sqlite[2/7] [========================100%] nsys_no_prefetching_600_output-600.sqlite
+[3/7] Executing 'nvtxsum' stats report
+[4/7] Executing 'cudaapisum' stats report
+
+CUDA API Statistics:
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)   Med (ns)  Min (ns)  Max (ns)   StdDev (ns)               Name              
+ --------  ---------------  ---------  ----------  --------  --------  ---------  -----------  -------------------------------
+     73.6        855628420         12  71302368.3   48321.0      8150  560474918  164345781.4  cudaFree                       
+     20.3        235623975          6  39270662.5    9705.0      7430  235555965   96159767.6  cudaMallocManaged              
+      4.6         53267385       1204     44242.0   36400.5      3850     100831      40768.8  cudaMemcpyAsync                
+      1.1         13331393       3006      4434.9    4340.0      4060      28591        580.9  cudaLaunchKernel               
+      0.1          1354687        602      2250.3    2210.0      1820       4990        168.4  cudaEventQuery                 
+      0.1          1228079        603      2036.6    1980.0      1870       7280        266.1  cudaStreamSynchronize          
+      0.1           826076       1806       457.4     450.0       380       1770         65.2  cudaStreamGetCaptureInfo_v10010
+      0.1           622855          5    124571.0    6500.0      3040     326502     165391.0  cudaMemPrefetchAsync           
+      0.0           528190        602       877.4     840.0       780       3070        117.9  cudaEventRecord                
+      0.0           380453       1134       335.5     300.0       160       6680        233.2  cuGetProcAddress               
+      0.0           302243          3    100747.7   83251.0      3690     215302     106885.5  cudaMalloc                     
+      0.0            21470         18      1192.8     575.0       470      11540       2585.1  cudaEventCreateWithFlags       
+      0.0            14370         18       798.3     595.0       450       4200        854.7  cudaEventDestroy               
+      0.0             9240          4      2310.0    2300.0      1170       3470       1014.4  cudaDeviceSynchronize          
+      0.0             6661          3      2220.3    2171.0      1590       2900        656.4  cuInit                         
+      0.0             1620          4       405.0     185.0       170       1080        450.1  cuModuleGetLoadingMode         
+
+[5/7] Executing 'gpukernsum' stats report
+
+CUDA Kernel Statistics:
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)                                                  Name                                                
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  ----------------------------------------------------------------------------------------------------
+     69.8         34234216       1204   28433.7   22080.0     18336     47744       9177.8  void nrm2_kernel<double, double, double, (int)0, (int)0, (int)128>(cublasNrm2Params<T1, T3>)        
+     12.7          6223717        600   10372.9   10368.0     10207     13536        144.3  void cusparse::load_balancing_kernel<(unsigned int)512, (unsigned int)4, (unsigned long)16384, int,…
+     10.0          4915492        600    8192.5    8161.0      8127     12800        196.8  void cusparse::binary_search_partition_kernel<(int)128, (int)2048, int, int, cusparse::ScaleY<cuspa…
+      7.5          3669890        601    6106.3    6080.0      5792      6560        120.4  void axpy_kernel_val<double, double>(cublasAxpyParamsVal<T1, T1, T2>)                               
+      0.0             5632          1    5632.0    5632.0      5632      5632          0.0  void thrust::cuda_cub::core::_kernel_agent<thrust::cuda_cub::__parallel_for::ParallelForAgent<thrus…
+
+[6/7] Executing 'gpumemtimesum' stats report
+
+CUDA Memory Operation Statistics (by time):
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)              Operation            
+ --------  ---------------  -----  --------  --------  --------  --------  -----------  ---------------------------------
+     54.4          1873961    602    3112.9    3104.0      2976      3456         59.6  [CUDA memcpy HtoD]               
+     45.2          1557768    602    2587.7    2560.0      2559      3968         77.4  [CUDA memcpy DtoH]               
+      0.5            15520      4    3880.0    3888.0      3488      4256        313.9  [CUDA Unified Memory memcpy HtoD]
+
+[7/7] Executing 'gpumemsizesum' stats report
+
+CUDA Memory Operation Statistics (by size):
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)              Operation            
+ ----------  -----  --------  --------  --------  --------  -----------  ---------------------------------
+      2.894    602     0.005     0.005     0.005     0.005        0.000  [CUDA memcpy HtoD]               
+      0.037      4     0.009     0.008     0.004     0.016        0.005  [CUDA Unified Memory memcpy HtoD]
+      0.005    602     0.000     0.000     0.000     0.000        0.000  [CUDA memcpy DtoH]               
+
+Generated:
+    /scratch/jjwil/GPU_Work/Assignment_GPU_Work/Final_Assignment_4/Q4/heat_equation_1D_cuda_library_UM/jjw_head_equation_output/no_prefetching_UM/no_prefetching_output/nsys_no_prefetching_600_output-600.nsys-rep
+    /scratch/jjwil/GPU_Work/Assignment_GPU_Work/Final_Assignment_4/Q4/heat_equation_1D_cuda_library_UM/jjw_head_equation_output/no_prefetching_UM/no_prefetching_output/nsys_no_prefetching_600_output-600.sqlite
+
