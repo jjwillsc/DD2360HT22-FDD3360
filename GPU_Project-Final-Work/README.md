@@ -61,9 +61,9 @@ The user can enter “tree” in the command window to display all directories a
 
 ![lavaMD-directory-review](https://github.com/jjwillsc/DD2360HT22-FDD3360/blob/main/GPU_Project-Final-Work/lavaMD-with-no-Streams/lavaMD-directory-review.png)
 
-## Running and Execution 
+## Parameters and Execution 
 
-The code takes the followint parameters:
+The code takes the following parameters:
 
 -boxes1d	(number of boxes in one dimension, which is (boxes1d) (boxes1d) (boxes1d) in three dimensions)
 
