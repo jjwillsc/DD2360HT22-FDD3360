@@ -1,40 +1,23 @@
 ## Applied GPU Programming with Rodinia LavaMD2 Profiling and Optimizations
 
 //========================================================================================150
-// Background and Description
+//                           Background and Description
 //========================================================================================150
 
-Rodinia Benchmark Suites are created for heterogeneous computing infrastructures with OpenMP, OpenCL and CUDA applications. In Rodinia Benchmark Suite 3.1, LavaMD2 as a selected benchmark, calculates the particle potential and relocation due to mutual forces between particles within a large 3D space, which are divided into cubes or large boxes allocated to individual cluster nodes. https://www.cs.virginia.edu/rodinia/doku.php?id=lavamd2 
+Rodinia Benchmark Suites are created for heterogeneous computing infrastructures with OpenMP, OpenCL and CUDA applications. 
+
+In Rodinia Benchmark Suite 3.1, LavaMD2 as a selected benchmark, calculates the particle potential and relocation due to mutual forces between particles within a large 3D space, which are divided into cubes or large boxes allocated to individual cluster nodes. https://www.cs.virginia.edu/rodinia/doku.php?id=lavamd2 
 
 //========================================================================================150
-// Scope
+//                            Project Scope
 //========================================================================================150
 
 The Rodinia LavaMD2 CUDA application was profiled and optimized using CUDA streams to improve data movement and runtime. 
 
 NVIDIA Nsight Systems and/or NVIDIA Nsight Compute was the main profiling tools used on Rodinia LavaMD2 CUDA baseline and optimized versions.
 
-The following will be updated in the Rodinia LavaMD2 CUDA optimized version:
-
-├── kernel
-│ ├── kernel_gpu_cuda.cu
-│ ├── kernel_gpu_cuda_wrapper.cu
-│ ├── kernel_gpu_cuda_wrapper.h
-├── main.c
-├── main.h
-└── util
-├── device
-│ ├── device.cu
-│ ├── device.h
-├── num
-│ ├── num.c
-│ ├── num.h
-└── timer
-├── timer.c
-├── timer.h
-
 //========================================================================================150
-// Computer Architechture and Experiment Setup
+//                            Computer Architechture and Experiment Setup
 //========================================================================================150
 
 The KTH HPC Group GPU system called “NJ” was used and it is equipped with a NVIDIA Ampere Architecture - NVIDIA A100 PCIe 40 GB. 
@@ -69,7 +52,7 @@ The below table shows the parameters we used to configure the application for ou
 |Number of CUDA Streams|4|
 
 //========================================================================================150
-// Compiling and Building
+//                          Compiling and Building
 //========================================================================================150
 
 All source code can complied and builded using a makefile updated from the Rodinia Benchmark Suite 3.1 designed for the LavaMD2 implementations.  
@@ -80,7 +63,7 @@ make > /scratch/jjwil/GPU_Work/src/GPU_jjw_rodinia_work/GPU_Assignment_Work/CUDA
 make clean
 
 //========================================================================================150
-// Running and Execution 
+//                         Running and Execution 
 //========================================================================================150
 
 The code takes the followint parameters:
