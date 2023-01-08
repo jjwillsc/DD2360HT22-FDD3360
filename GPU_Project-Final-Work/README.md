@@ -57,6 +57,9 @@ make clean
 
 make > /scratch/jjwil/GPU_Work/src/.../Review_lavaMD_streams_threads/jjw_output_work/make_compile_out.txt
 
+The user can enter “tree” in the command window to display all directories and files as followed:
+
+![lavaMD-directory-review](https://github.com/jjwillsc/DD2360HT22-FDD3360/blob/main/GPU_Project-Final-Work/lavaMD-with-no-Streams/lavaMD-directory-review.png)
 
 ## Running and Execution 
 
