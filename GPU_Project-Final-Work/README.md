@@ -94,5 +94,5 @@ Usage:
 
 source ncu --target-processes all -o /lavaMD_160/ncu_lavaMD_160-output ./lavaMD -boxes1d 160 >> /lavaMD_160/lavaMD_160-output.txt
 
-![LavaMD-CUDA-Streams_UVA_Diff_Pic3](https://user-images.githubusercontent.com/117684550/211210813-84b3235c-9f2b-4ab3-9989-d4b20c35c1e2.png)
+
 
