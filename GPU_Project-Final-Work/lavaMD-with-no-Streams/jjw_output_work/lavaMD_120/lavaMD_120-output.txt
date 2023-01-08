@@ -1,0 +1,115 @@
+Sun Jan  1 04:58:10 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA A100-PCI...  Off  | 00000000:43:00.0 Off |                    0 |
+| N/A   26C    P0    35W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA A100-PCI...  Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   31C    P0    35W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+thread block size of kernel = 128 
+Configuration used: boxes1d = 120
+Time spent in different stages of GPU_CUDA KERNEL:
+ 5.127285957336 s, 47.641952514648 % : GPU: SET DEVICE / DRIVER INIT
+ 0.009589999914 s,  0.089108802378 % : GPU MEM: ALO
+ 0.869009017944 s,  8.074697494507 % : GPU MEM: COPY IN
+ 4.210339069366 s, 39.121822357178 % : GPU: KERNEL
+ 0.536153018475 s,  4.981851100922 % : GPU MEM: COPY OUT
+ 0.009747000411 s,  0.090567618608 % : GPU MEM: FRE
+Total time:
+10.762124061584 s
+
+thread block size of kernel = 128 
+Configuration used: boxes1d = 120
+Time spent in different stages of GPU_CUDA KERNEL:
+ 0.368611991405 s,  6.104639530182 % : GPU: SET DEVICE / DRIVER INIT
+ 0.009720999748 s,  0.160990968347 % : GPU MEM: ALO
+ 0.896432995796 s, 14.845964431763 % : GPU MEM: COPY IN
+ 4.214938163757 s, 69.804229736328 % : GPU: KERNEL
+ 0.538596987724 s,  8.919787406921 % : GPU MEM: COPY OUT
+ 0.009925999679 s,  0.164386004210 % : GPU MEM: FRE
+Total time:
+6.038227081299 s
+Generating '/tmp/nsys-report-e3bd.qdstrm'
+[1/7] [0%                          ] nsys_lavaMD_120-output.nsys-rep[1/7] [0%                          ] nsys_lavaMD_120-output.nsys-rep[1/7] [6%                          ] nsys_lavaMD_120-output.nsys-rep[1/7] [===========51%              ] nsys_lavaMD_120-output.nsys-rep[1/7] [=======================94%  ] nsys_lavaMD_120-output.nsys-rep[1/7] [========================100%] nsys_lavaMD_120-output.nsys-rep
+[2/7] [0%                          ] nsys_lavaMD_120-output.sqlite[2/7] [1%                          ] nsys_lavaMD_120-output.sqlite[2/7] [2%                          ] nsys_lavaMD_120-output.sqlite[2/7] [3%                          ] nsys_lavaMD_120-output.sqlite[2/7] [4%                          ] nsys_lavaMD_120-output.sqlite[2/7] [5%                          ] nsys_lavaMD_120-output.sqlite[2/7] [6%                          ] nsys_lavaMD_120-output.sqlite[2/7] [7%                          ] nsys_lavaMD_120-output.sqlite[2/7] [8%                          ] nsys_lavaMD_120-output.sqlite[2/7] [9%                          ] nsys_lavaMD_120-output.sqlite[2/7] [10%                         ] nsys_lavaMD_120-output.sqlite[2/7] [11%                         ] nsys_lavaMD_120-output.sqlite[2/7] [12%                         ] nsys_lavaMD_120-output.sqlite[2/7] [13%                         ] nsys_lavaMD_120-output.sqlite[2/7] [14%                         ] nsys_lavaMD_120-output.sqlite[2/7] [=15%                        ] nsys_lavaMD_120-output.sqlite[2/7] [=16%                        ] nsys_lavaMD_120-output.sqlite[2/7] [=17%                        ] nsys_lavaMD_120-output.sqlite[2/7] [==18%                       ] nsys_lavaMD_120-output.sqlite[2/7] [==19%                       ] nsys_lavaMD_120-output.sqlite[2/7] [==20%                       ] nsys_lavaMD_120-output.sqlite[2/7] [==21%                       ] nsys_lavaMD_120-output.sqlite[2/7] [===22%                      ] nsys_lavaMD_120-output.sqlite[2/7] [===23%                      ] nsys_lavaMD_120-output.sqlite[2/7] [===24%                      ] nsys_lavaMD_120-output.sqlite[2/7] [====25%                     ] nsys_lavaMD_120-output.sqlite[2/7] [====26%                     ] nsys_lavaMD_120-output.sqlite[2/7] [====27%                     ] nsys_lavaMD_120-output.sqlite[2/7] [====28%                     ] nsys_lavaMD_120-output.sqlite[2/7] [=====29%                    ] nsys_lavaMD_120-output.sqlite[2/7] [=====30%                    ] nsys_lavaMD_120-output.sqlite[2/7] [=====31%                    ] nsys_lavaMD_120-output.sqlite[2/7] [=====32%                    ] nsys_lavaMD_120-output.sqlite[2/7] [======33%                   ] nsys_lavaMD_120-output.sqlite[2/7] [======34%                   ] nsys_lavaMD_120-output.sqlite[2/7] [======35%                   ] nsys_lavaMD_120-output.sqlite[2/7] [=======36%                  ] nsys_lavaMD_120-output.sqlite[2/7] [=======37%                  ] nsys_lavaMD_120-output.sqlite[2/7] [=======38%                  ] nsys_lavaMD_120-output.sqlite[2/7] [=======39%                  ] nsys_lavaMD_120-output.sqlite[2/7] [========40%                 ] nsys_lavaMD_120-output.sqlite[2/7] [========41%                 ] nsys_lavaMD_120-output.sqlite[2/7] [========42%                 ] nsys_lavaMD_120-output.sqlite[2/7] [=========43%                ] nsys_lavaMD_120-output.sqlite[2/7] [=========44%                ] nsys_lavaMD_120-output.sqlite[2/7] [=========45%                ] nsys_lavaMD_120-output.sqlite[2/7] [=========46%                ] nsys_lavaMD_120-output.sqlite[2/7] [==========47%               ] nsys_lavaMD_120-output.sqlite[2/7] [==========48%               ] nsys_lavaMD_120-output.sqlite[2/7] [==========49%               ] nsys_lavaMD_120-output.sqlite[2/7] [===========50%              ] nsys_lavaMD_120-output.sqlite[2/7] [===========51%              ] nsys_lavaMD_120-output.sqlite[2/7] [===========52%              ] nsys_lavaMD_120-output.sqlite[2/7] [===========53%              ] nsys_lavaMD_120-output.sqlite[2/7] [============54%             ] nsys_lavaMD_120-output.sqlite[2/7] [============55%             ] nsys_lavaMD_120-output.sqlite[2/7] [============56%             ] nsys_lavaMD_120-output.sqlite[2/7] [============57%             ] nsys_lavaMD_120-output.sqlite[2/7] [=============58%            ] nsys_lavaMD_120-output.sqlite[2/7] [=============59%            ] nsys_lavaMD_120-output.sqlite[2/7] [=============60%            ] nsys_lavaMD_120-output.sqlite[2/7] [==============61%           ] nsys_lavaMD_120-output.sqlite[2/7] [==============62%           ] nsys_lavaMD_120-output.sqlite[2/7] [==============63%           ] nsys_lavaMD_120-output.sqlite[2/7] [==============64%           ] nsys_lavaMD_120-output.sqlite[2/7] [===============65%          ] nsys_lavaMD_120-output.sqlite[2/7] [===============66%          ] nsys_lavaMD_120-output.sqlite[2/7] [===============67%          ] nsys_lavaMD_120-output.sqlite[2/7] [================68%         ] nsys_lavaMD_120-output.sqlite[2/7] [================69%         ] nsys_lavaMD_120-output.sqlite[2/7] [================70%         ] nsys_lavaMD_120-output.sqlite[2/7] [================71%         ] nsys_lavaMD_120-output.sqlite[2/7] [=================72%        ] nsys_lavaMD_120-output.sqlite[2/7] [=================73%        ] nsys_lavaMD_120-output.sqlite[2/7] [=================74%        ] nsys_lavaMD_120-output.sqlite[2/7] [==================75%       ] nsys_lavaMD_120-output.sqlite[2/7] [==================76%       ] nsys_lavaMD_120-output.sqlite[2/7] [==================77%       ] nsys_lavaMD_120-output.sqlite[2/7] [==================78%       ] nsys_lavaMD_120-output.sqlite[2/7] [===================79%      ] nsys_lavaMD_120-output.sqlite[2/7] [===================80%      ] nsys_lavaMD_120-output.sqlite[2/7] [===================81%      ] nsys_lavaMD_120-output.sqlite[2/7] [===================82%      ] nsys_lavaMD_120-output.sqlite[2/7] [====================83%     ] nsys_lavaMD_120-output.sqlite[2/7] [====================84%     ] nsys_lavaMD_120-output.sqlite[2/7] [====================85%     ] nsys_lavaMD_120-output.sqlite[2/7] [=====================86%    ] nsys_lavaMD_120-output.sqlite[2/7] [=====================87%    ] nsys_lavaMD_120-output.sqlite[2/7] [=====================88%    ] nsys_lavaMD_120-output.sqlite[2/7] [=====================89%    ] nsys_lavaMD_120-output.sqlite[2/7] [======================90%   ] nsys_lavaMD_120-output.sqlite[2/7] [======================91%   ] nsys_lavaMD_120-output.sqlite[2/7] [======================92%   ] nsys_lavaMD_120-output.sqlite[2/7] [=======================93%  ] nsys_lavaMD_120-output.sqlite[2/7] [=======================94%  ] nsys_lavaMD_120-output.sqlite[2/7] [=======================95%  ] nsys_lavaMD_120-output.sqlite[2/7] [=======================96%  ] nsys_lavaMD_120-output.sqlite[2/7] [========================97% ] nsys_lavaMD_120-output.sqlite[2/7] [========================98% ] nsys_lavaMD_120-output.sqlite[2/7] [========================99% ] nsys_lavaMD_120-output.sqlite[2/7] [========================100%] nsys_lavaMD_120-output.sqlite[2/7] [========================100%] nsys_lavaMD_120-output.sqlite
+[3/7] Executing 'nvtxsum' stats report
+[4/7] Executing 'cudaapisum' stats report
+
+CUDA API Statistics:
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)      Med (ns)    Min (ns)    Max (ns)   StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  ------------  ---------  ----------  ------------  ----------------------
+     75.3       4444244531          2  2222122265.5  2222122265.5  229361405  4214883126  2818189435.5  cudaThreadSynchronize 
+     24.3       1435016825          5   287003365.0   363929116.0   75147405   538596215   198936924.0  cudaMemcpy            
+      0.2          9922901          4     2480725.3     2498730.5     841217     4084223     1776424.7  cudaFree              
+      0.2          9717479          4     2429369.8     2437075.0     989708     3853621     1640903.8  cudaMalloc            
+      0.0            40320          1       40320.0       40320.0      40320       40320           0.0  cudaLaunchKernel      
+      0.0             1210          1        1210.0        1210.0       1210        1210           0.0  cuModuleGetLoadingMode
+
+[5/7] Executing 'gpukernsum' stats report
+
+CUDA Kernel Statistics:
+
+ Time (%)  Total Time (ns)  Instances    Avg (ns)      Med (ns)     Min (ns)    Max (ns)   StdDev (ns)                               Name                              
+ --------  ---------------  ---------  ------------  ------------  ----------  ----------  -----------  ---------------------------------------------------------------
+    100.0       4214881333          1  4214881333.0  4214881333.0  4214881333  4214881333          0.0  _Z15kernel_gpu_cuda7par_str7dim_strP7box_strP11FOUR_VECTORPdS4_
+
+[6/7] Executing 'gpumemtimesum' stats report
+
+CUDA Memory Operation Statistics (by time):
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)      Operation     
+ --------  ---------------  -----  -----------  -----------  ---------  ---------  -----------  ------------------
+     62.5        896108425      4  224027106.3  227852345.0   75082221  365321514  162449273.6  [CUDA memcpy HtoD]
+     37.5        538439207      1  538439207.0  538439207.0  538439207  538439207          0.0  [CUDA memcpy DtoH]
+
+[7/7] Executing 'gpumemsizesum' stats report
+
+CUDA Memory Operation Statistics (by size):
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+  13575.168      4  3393.792  3456.000  1133.568  5529.600     2468.310  [CUDA memcpy HtoD]
+   5529.600      1  5529.600  5529.600  5529.600  5529.600        0.000  [CUDA memcpy DtoH]
+
+Generated:
+    /scratch/jjwil/GPU_Work/src/GPU_jjw_rodinia_work/GPU_Assignment_Work/CUDA/lavaMD/jjw_output_work/lavaMD_120/nsys_lavaMD_120-output.nsys-rep
+    /scratch/jjwil/GPU_Work/src/GPU_jjw_rodinia_work/GPU_Assignment_Work/CUDA/lavaMD/jjw_output_work/lavaMD_120/nsys_lavaMD_120-output.sqlite
+
+
+==PROF== Connected to process 120718 (/scratch/jjwil/GPU_Work/src/GPU_jjw_rodinia_work/GPU_Assignment_Work/CUDA/lavaMD/lavaMD)
+==PROF== Profiling "_Z15kernel_gpu_cuda7par_str7d..." - 0: 0%
+==WARNING== Backing up device memory in system memory. Kernel replay might be slow. Consider using "--replay-mode application" to avoid memory save-and-restore.
+
+==WARNING== Backing up device memory in system memory. Kernel replay might be slow. Consider using "--replay-mode application" to avoid memory save-and-restore.
+....50%....100% - 10 passes
+thread block size of kernel = 128 
+Configuration used: boxes1d = 120
+Time spent in different stages of GPU_CUDA KERNEL:
+ 6.255076885223 s,  7.136100769043 % : GPU: SET DEVICE / DRIVER INIT
+ 0.010513000190 s,  0.011993749067 % : GPU MEM: ALO
+ 0.892139971256 s,  1.017797350883 % : GPU MEM: COPY IN
+79.942413330078 s, 91.202255249023 % : GPU: KERNEL
+ 0.537386000156 s,  0.613076448441 % : GPU MEM: COPY OUT
+ 0.016464000568 s,  0.018782943487 % : GPU MEM: FRE
+Total time:
+87.653991699219 s
+==PROF== Disconnected from process 120718
+==PROF== Report: /scratch/jjwil/GPU_Work/src/GPU_jjw_rodinia_work/GPU_Assignment_Work/CUDA/lavaMD/jjw_output_work/lavaMD_120/ncu_lavaMD_120-output.ncu-rep

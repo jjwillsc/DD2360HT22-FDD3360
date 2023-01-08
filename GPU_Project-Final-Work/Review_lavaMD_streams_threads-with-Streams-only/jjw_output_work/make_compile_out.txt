@@ -1,0 +1,19 @@
+gcc	  main.c \
+		-c \
+		-o main.o \
+		-O3
+/usr/local/cuda/bin/nvcc  						./kernel/kernel_gpu_cuda_wrapper.cu \
+								-c \
+								-o ./kernel/kernel_gpu_cuda_wrapper.o \
+								-O3 \
+								-arch=sm_80 
+gcc	 main.o \
+		./kernel/kernel_gpu_cuda_wrapper.o \
+		./util/num/num.o \
+		./util/timer/timer.o \
+		./util/device/device.o \
+		-lm \
+		-L/usr/local/cuda/lib64 \
+		-lcuda -lcudart \
+		-lgomp \
+		-o lavaMD
