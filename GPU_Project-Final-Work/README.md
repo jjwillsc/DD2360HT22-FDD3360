@@ -1,14 +1,14 @@
 ## Applied GPU Programming with Rodinia LavaMD2 Profiling and Optimizations
 
-//===========================================================================150
-//	Background and Description
-//===========================================================================150
+//========================================================================================150
+// Background and Description
+//========================================================================================150
 
 Rodinia Benchmark Suites are created for heterogeneous computing infrastructures with OpenMP, OpenCL and CUDA applications. In Rodinia Benchmark Suite 3.1, LavaMD2 as a selected benchmark, calculates the particle potential and relocation due to mutual forces between particles within a large 3D space, which are divided into cubes or large boxes allocated to individual cluster nodes. https://www.cs.virginia.edu/rodinia/doku.php?id=lavamd2 
 
-//======================================================================================================================================================150
-//	Scope
-//======================================================================================================================================================150
+//========================================================================================150
+// Scope
+//========================================================================================150
 
 The Rodinia LavaMD2 CUDA application was profiled and optimized using CUDA streams to improve data movement and runtime. 
 
@@ -33,9 +33,9 @@ The following will be updated in the Rodinia LavaMD2 CUDA optimized version:
 ├── timer.c
 ├── timer.h
 
-//======================================================================================================================================================150
-//	Computer Architechture and Experiment Setup
-//======================================================================================================================================================150
+//========================================================================================150
+// Computer Architechture and Experiment Setup
+//========================================================================================150
 
 The KTH HPC Group GPU system called “NJ” was used and it is equipped with a NVIDIA Ampere Architecture - NVIDIA A100 PCIe 40 GB. 
 
@@ -68,9 +68,9 @@ The below table shows the parameters we used to configure the application for ou
 |Thread Block Size of the Kernel|128|
 |Number of CUDA Streams|4|
 
-//======================================================================================================================================================150
-//	Compiling and Building
-//======================================================================================================================================================150
+//========================================================================================150
+// Compiling and Building
+//========================================================================================150
 
 All source code can complied and builded using a makefile updated from the Rodinia Benchmark Suite 3.1 designed for the LavaMD2 implementations.  
 
@@ -79,9 +79,9 @@ Usage:
 make > /scratch/jjwil/GPU_Work/src/GPU_jjw_rodinia_work/GPU_Assignment_Work/CUDA/Review_lavaMD_streams_threads/jjw_output_work/make_compile_out.txt
 make clean
 
-//======================================================================================================================================================150
-//	Running and Execution 
-//======================================================================================================================================================150
+//========================================================================================150
+// Running and Execution 
+//========================================================================================150
 
 The code takes the followint parameters:
 
