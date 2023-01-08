@@ -51,15 +51,24 @@ The below table shows the parameters we used to configure the application for ou
 
 All source code can be complied and builded using the provided makefile updated from the Rodinia Benchmark Suite 3.1 designed for the LavaMD2 implementations.  
 
+The user can enter “tree” in the command window to display all directories and files as followed:
+
+![lavaMD-directory-review](https://github.com/jjwillsc/DD2360HT22-FDD3360/blob/main/GPU_Project-Final-Work/lavaMD-with-no-Streams/lavaMD-directory-review.png)
+
 Usage:
 
 make clean
 
 make > /scratch/jjwil/GPU_Work/src/.../Review_lavaMD_streams_threads/jjw_output_work/make_compile_out.txt
 
-The user can enter “tree” in the command window to display all directories and files as followed:
+For Output Validation, a results file (result.txt) will be created after each execution. 
+Please use with caution, as this will generate a very large text file and can add extra overhead on the execution. 
 
-![lavaMD-directory-review](https://github.com/jjwillsc/DD2360HT22-FDD3360/blob/main/GPU_Project-Final-Work/lavaMD-with-no-Streams/lavaMD-directory-review.png)
+Usage:
+
+make clean 
+
+make OUTPUT=Y > /scratch/jjwil/GPU_Work/src/.../Review_lavaMD_streams_threads/jjw_output_work/make_compile_out.txt
 
 ## Parameters and Execution 
 
