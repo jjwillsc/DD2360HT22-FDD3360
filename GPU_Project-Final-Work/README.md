@@ -1,6 +1,6 @@
 # Rodinia LavaMD2 GPU Profiling and Optimizations
 
-### Background and Description
+## Background and Description
 
 Rodinia Benchmark Suites are created for heterogeneous computing infrastructures with OpenMP, OpenCL and CUDA applications. 
 
@@ -47,16 +47,18 @@ The below table shows the parameters we used to configure the application for ou
 |Thread Block Size of the Kernel|128|
 |Number of CUDA Streams|4|
 
-### Compiling and Building
+## Compiling and Building
 
 All source code can complied and builded using a makefile updated from the Rodinia Benchmark Suite 3.1 designed for the LavaMD2 implementations.  
 
 Usage:
 
-make > /scratch/jjwil/GPU_Work/src/GPU_jjw_rodinia_work/GPU_Assignment_Work/CUDA/Review_lavaMD_streams_threads/jjw_output_work/make_compile_out.txt
 make clean
 
-### Running and Execution 
+make > /scratch/jjwil/GPU_Work/src/.../Review_lavaMD_streams_threads/jjw_output_work/make_compile_out.txt
+
+
+## Running and Execution 
 
 The code takes the followint parameters:
 
@@ -73,3 +75,21 @@ The below table shows the input parameters used by the application with one valu
 The code can be execution as followed: 
 
 ./lavaMD -boxes1d 160 
+
+## Profiling 
+
+NVIDIA Nsight Systems and NVIDIA Nsight Compute was the main profiling tools used on Rodinia LavaMD2 CUDA baseline and optimized versions.
+
+Usage:
+
+### NVIDIA Nsight Systems
+
+Usage:
+
+nsys nvprof -o /lavaMD_160/nsys_lavaMD_160-output ./lavaMD -boxes1d 160 >> /lavaMD_160/lavaMD_160-output.txt
+
+### NVIDIA Nsight Compute
+
+Usage:
+
+source ncu --target-processes all -o /lavaMD_160/ncu_lavaMD_160-output ./lavaMD -boxes1d 160 >> /lavaMD_160/lavaMD_160-output.txt
