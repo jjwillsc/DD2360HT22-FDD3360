@@ -61,9 +61,9 @@ The user can enter “tree” in the command window to display all directories a
 
 ![lavaMD-directory-review](https://github.com/jjwillsc/DD2360HT22-FDD3360/blob/main/GPU_Project-Final-Work/lavaMD-with-no-Streams/lavaMD-directory-review.png)
 
-## Running and Execution 
+## Parameters and Execution 
 
-The code takes the followint parameters:
+The code takes the following parameters:
 
 -boxes1d	(number of boxes in one dimension, which is (boxes1d) (boxes1d) (boxes1d) in three dimensions)
 
@@ -78,6 +78,14 @@ The below table shows the input parameters used by the application with one sele
 The code can be executed as followed: 
 
 ./lavaMD -boxes1d 160 
+
+The following commands were typed before each login session: 
+
+| Name/Purpose   | Command     | 
+| ------------- | ------------- | 
+| GNU Compiler toolset was installed |  module load gcc | 
+| The CUDA toolset was installed|  module load cuda| 
+| Show info about available GPUs |  nvidia-smi| 
 
 ## Profiling 
 
