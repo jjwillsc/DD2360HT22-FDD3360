@@ -1,7 +1,7 @@
 ## Applied GPU Programming with Rodinia LavaMD2 Profiling and Optimizations
 
 //========================================================================================150
-//                           Background and Description
+### Background and Description
 //========================================================================================150
 
 Rodinia Benchmark Suites are created for heterogeneous computing infrastructures with OpenMP, OpenCL and CUDA applications. 
@@ -9,7 +9,7 @@ Rodinia Benchmark Suites are created for heterogeneous computing infrastructures
 In Rodinia Benchmark Suite 3.1, LavaMD2 as a selected benchmark, calculates the particle potential and relocation due to mutual forces between particles within a large 3D space, which are divided into cubes or large boxes allocated to individual cluster nodes. https://www.cs.virginia.edu/rodinia/doku.php?id=lavamd2 
 
 //========================================================================================150
-//                            Project Scope
+ ### Project Scope
 //========================================================================================150
 
 The Rodinia LavaMD2 CUDA application was profiled and optimized using CUDA streams to improve data movement and runtime. 
@@ -17,7 +17,7 @@ The Rodinia LavaMD2 CUDA application was profiled and optimized using CUDA strea
 NVIDIA Nsight Systems and/or NVIDIA Nsight Compute was the main profiling tools used on Rodinia LavaMD2 CUDA baseline and optimized versions.
 
 //========================================================================================150
-//                            Computer Architechture and Experiment Setup
+### Computer Architechture and Experiment Setup
 //========================================================================================150
 
 The KTH HPC Group GPU system called “NJ” was used and it is equipped with a NVIDIA Ampere Architecture - NVIDIA A100 PCIe 40 GB. 
@@ -25,6 +25,7 @@ The KTH HPC Group GPU system called “NJ” was used and it is equipped with a 
 The below table shows the standard architectureal features on NJ.  
 
 |NJ Feature|Value|
+| ------------- | ------------- | 
 |Model|NVIDIA Ampere|
 |Cores|6,912|
 |Memory Size|40 GB|
@@ -44,6 +45,7 @@ On NJ, the Rodinia LavaMD2 CUDA optimized version was be executed up to 160 boxe
 The below table shows the parameters we used to configure the application for our experimental study. 
 
 |Parameter|	Value|
+| ------------- | ------------- | 
 |Number of Boxes in One Dimension (boxes1d)|Up to 160|
 |Number of Boxes in Three Dimension (Total Number of Boxes)|(boxes1d) (boxes1d) (boxes1d) | 
 |Number Par Per (3D) Box|100|
@@ -52,7 +54,7 @@ The below table shows the parameters we used to configure the application for ou
 |Number of CUDA Streams|4|
 
 //========================================================================================150
-//                          Compiling and Building
+### Compiling and Building
 //========================================================================================150
 
 All source code can complied and builded using a makefile updated from the Rodinia Benchmark Suite 3.1 designed for the LavaMD2 implementations.  
@@ -63,7 +65,7 @@ make > /scratch/jjwil/GPU_Work/src/GPU_jjw_rodinia_work/GPU_Assignment_Work/CUDA
 make clean
 
 //========================================================================================150
-//                         Running and Execution 
+### Running and Execution 
 //========================================================================================150
 
 The code takes the followint parameters:
