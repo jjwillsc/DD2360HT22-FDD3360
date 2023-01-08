@@ -79,6 +79,14 @@ The code can be executed as followed:
 
 ./lavaMD -boxes1d 160 
 
+The following commands were typed before each login session: 
+
+| Name/Purpose   | Command     | 
+| ------------- | ------------- | 
+| GNU Compiler toolset was installed |  module load gcc | 
+| The CUDA toolset was installed|  module load cuda| 
+| Show info about available GPUs |  nvidia-smi| 
+
 ## Profiling 
 
 As previously mentioned, NVIDIA Nsight Systems and NVIDIA Nsight Compute were used to collect profiling results. 
