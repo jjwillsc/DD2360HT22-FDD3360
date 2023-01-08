@@ -1,8 +1,8 @@
 ## Applied GPU Programming with Rodinia LavaMD2 Profiling and Optimizations
 
-//======================================================================================================================================================150
+//===========================================================================150
 //	Background and Description
-//======================================================================================================================================================150
+//===========================================================================150
 
 Rodinia Benchmark Suites are created for heterogeneous computing infrastructures with OpenMP, OpenCL and CUDA applications. In Rodinia Benchmark Suite 3.1, LavaMD2 as a selected benchmark, calculates the particle potential and relocation due to mutual forces between particles within a large 3D space, which are divided into cubes or large boxes allocated to individual cluster nodes. https://www.cs.virginia.edu/rodinia/doku.php?id=lavamd2 
 
