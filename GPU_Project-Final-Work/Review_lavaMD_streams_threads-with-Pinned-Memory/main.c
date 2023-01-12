@@ -179,10 +179,10 @@ main(	int argc,
 	cudaMallocHost((fp**)&qv_cpu, dim_cpu.space_mem2);
 	cudaMallocHost((FOUR_VECTOR**)&fv_cpu, dim_cpu.space_mem);
 
-        //cudaMallocHost((void**)&box_cpu, dim_cpu.box_mem);
-        //cudaMallocHost((void**)&rv_cpu, dim_cpu.space_mem);
-        //cudaMallocHost((void**)&qv_cpu, dim_cpu.space_mem2);
-        //cudaMallocHost((void**)&fv_cpu, dim_cpu.space_mem);
+    //cudaMallocHost((void**)&box_cpu, dim_cpu.box_mem);
+    //cudaMallocHost((void**)&rv_cpu, dim_cpu.space_mem);
+    //cudaMallocHost((void**)&qv_cpu, dim_cpu.space_mem2);
+    //cudaMallocHost((void**)&fv_cpu, dim_cpu.space_mem);
 
 #endif
 

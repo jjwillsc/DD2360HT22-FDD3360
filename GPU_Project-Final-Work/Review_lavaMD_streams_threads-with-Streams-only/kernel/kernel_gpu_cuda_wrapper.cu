@@ -93,7 +93,7 @@ kernel_gpu_cuda_wrapper(par_str par_cpu,
         //====================================================================================================100
 
 
-        blocks.x = (dim_cpu.number_boxes * / (streamCount * NUMBER_THREADS;
+        blocks.x = (dim_cpu.number_boxes) / (streamCount * NUMBER_THREADS);
         blocks.y = 1;
         threads.x = NUMBER_THREADS;                                                                                     // define the number of threads in the block
         threads.y = 1;
@@ -141,7 +141,7 @@ kernel_gpu_cuda_wrapper(par_str par_cpu,
 		// launch kernel - all boxes
                 kernel_gpu_cuda<<<blocks, threads, 0, streams[i]>>>(par_cpu, dim_cpu, d_box_gpu, d_rv_gpu, d_qv_gpu, d_fv_gpu);
 
-		checkCUDAError("Start");
+			checkCUDAError("Start");
         	cudaThreadSynchronize();
 
           	cudaStreamSynchronize(streams[i]);
